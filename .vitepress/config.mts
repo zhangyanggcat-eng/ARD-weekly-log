@@ -8,34 +8,27 @@ export default defineConfig({
   base: '/ARD-weekly-log/',
 
   themeConfig: {
-    nav: [
-      { text: '首页', link: '/' }
-    ],
-
-    sidebar: [
+        sidebar: [
       {
         text: 'ARD 开发日志',
         items: [
           {
-            text: '9.02 K3 / StarryOS / ARD 进展',
-            link: '/9.02号K3_COM260_StarryOS_ARD_进展'
+            text: '2026-09-02 K3 / StarryOS / ARD 进展',
+            link: '/2026-09-02-K3-StarryOS-ARD进展'
           },
           {
-            text: '7.27 ARD 融合分支架构',
-            link: '/7.27ARD融合分支架构'
+            text: '2026-08-04 融合 OS 调试的异步调试器关键问题总结',
+            link: '/2026-08-04-融合OS调试的异步调试器关键问题总结'
           },
           {
-            text: '7.26 K3 阶段验证信息',
-            link: '/26.7.26阶段K3当前验证信息'
+            text: '2026-07-27 ARD 融合分支架构',
+            link: '/2026-07-27-ARD融合分支架构'
+          },
+          {
+            text: '2026-07-26 K3 阶段验证信息',
+            link: '/2026-07-26-K3阶段验证信息'
           }
         ]
-      }
-    ],
-
-    socialLinks: [
-      {
-        icon: 'github',
-        link: 'https://github.com/zhangyanggcat-eng/ARD-weekly-log'
       }
     ],
 

@@ -1,27 +1,16 @@
----
-layout: home
+# ARD 开发日志
 
-hero:
-  name: "ARD Development Log"
-  text: "ARD 项目开发日志"
-  tagline: "记录 ARD、StarryOS、K3 COM260 与调试部署过程"
+记录 ARD 调试器、StarryOS、K3 COM260 以及相关调试部署工作的阶段进展。
 
-  actions:
-    - theme: brand
-      text: 查看项目日志
-      link: /9.02号K3_COM260_StarryOS_ARD_进展
+## 2026-09
 
-    - theme: alt
-      text: GitHub
-      link: https://github.com/zhangyanggcat-eng/ARD-weekly-log
+- [2026-09-02 K3 / StarryOS / ARD 进展](./2026-09-02-K3-StarryOS-ARD进展.md)
 
-features:
-  - title: ARD
-    details: 异步 Rust 调试器开发与部署记录
+## 2026-08
 
-  - title: StarryOS
-    details: StarryOS 真板启动与调试记录
+- [2026-08-04 融合 OS 调试的异步调试器关键问题总结](./2026-08-04-融合OS调试的异步调试器关键问题总结.md)
 
-  - title: K3 COM260
-    details: K3 开发板、JTAG、OpenOCD 与硬件调试记录
----
+## 2026-07
+
+- [2026-07-27 ARD 融合分支架构](./2026-07-27-ARD融合分支架构.md)
+- [2026-07-26 K3 阶段验证信息](./2026-07-26-K3阶段验证信息.md)
