@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t,a2 as l}from"./chunks/framework.BOl2Vi4W.js";const u=JSON.parse('{"title":"ARD 开发日志","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"};function o(n,a,h,d,_,s){return r(),t("div",null,[...a[0]||(a[0]=[l("",8)])])}const m=e(i,[["render",o]]);export{u as __pageData,m as default};
