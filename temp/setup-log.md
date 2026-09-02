@@ -15,7 +15,7 @@ VitePress 本地环境搭建成功。
 
 本地地址：
 
-http://localhost:5173/ARD-weekly-log/
+'http://localhost:5173/ARD-weekly-log/'
 
 结果：
 
@@ -31,3 +31,15 @@ http://localhost:5173/ARD-weekly-log/
 下一步：
 
 GitHub Actions 自动构建并部署到 blog 分支。
+
+### GitHub Actions 第一次构建
+
+第一次自动构建失败。
+
+原因：
+
+VitePress 检测到 `temp/setup-log.md` 中的 localhost 地址并将其判定为 dead link。
+
+处理：
+
+将 localhost 地址改为代码文本，避免参与 dead link 检查。
