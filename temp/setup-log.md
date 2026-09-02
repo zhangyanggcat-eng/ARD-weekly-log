@@ -15,7 +15,7 @@ VitePress 本地环境搭建成功。
 
 本地地址：
 
-'http://localhost:5173/ARD-weekly-log/'
+`http://localhost:5173/ARD-weekly-log/`
 
 结果：
 
