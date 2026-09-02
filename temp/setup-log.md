@@ -43,3 +43,19 @@ VitePress 检测到 `temp/setup-log.md` 中的 localhost 地址并将其判定�
 处理：
 
 将 localhost 地址改为代码文本，避免参与 dead link 检查。
+
+### 左侧日志边栏
+
+已在 VitePress 中加入左侧日志导航。
+
+当前包含：
+
+- 9.02 K3 / StarryOS / ARD 进展
+- 7.27 ARD 融合分支架构
+- 7.26 K3 阶段验证信息
+
+结果：
+
+✅ 左侧日志切换正常  
+✅ 右侧本页目录正常  
+✅ 页面布局正常
